@@ -83,95 +83,25 @@ main > .main_visual > p {
     z-index:1
     }
 
-.main_list {
-    border:1px solid darkmagenta;
-    width:100%;
-    height: 600px;
-}
-
-.main_list > ul {
-    /* border:1px solid deeppink; */
-    margin-top:100px;    
-    width:100%;
-}
-
 .main_list > ul > li {
-    /* border:1px solid salmon; */
-    float:left;
-    overflow: hidden;
-    /* width:353px;
-    height: 444px; */
+    border:1px solid salmon;
     float: left;
-    width: 32%;
-    min-width: 300px;
-    height:auto;
+    overflow: hidden;
+    width:353px;
+    height: 444px;
+    margin-top:100px;
     }
 
 .main_list > ul > li + li {
-    /* margin-left:50px; */
-    margin-left:2%;
+    margin-left:50px;
     }
 
 .main_list > ul:last-child {
     content: '';display: block;overflow: hidden;
-    }
-
-.main_list > ul > li {
-    position: relative;
-    }
-.main_list > ul > li > a > .icon {
-    /* border:1px solid fuchsia; */
-    position: absolute;
-    left:0;
-    bottom:0;
-    text-align: center;
-    
-    width:38px;
-    height:38px;
-    background-color: white;
-    transition-duration: 0.3s;
-}
-.main_list > ul > li > a > .icon > span {
-    font-size: 18px;
-    font-weight: 900;
-    color: black;
-    position: absolute;
-    top:calc(50% - 10px);
-    left:calc(50% - 6px);
-    }
-
-.main_list > ul > li > a:hover > .icon {
-    width:55px;
-    height:55px;
-    transition-duration: 0.3s;
 }
 
-.main_list > ul > li > a > img.visible_mo {
-    display: none;
-    }
+.main_list > ul > li > a > h2 {
 
-.main_list > ul > li > a {
-    /* border:1px solid seagreen; */
-    position: relative;
-    display: block;
-    width:100%;
-    }
-
-.main_list > ul > li > a > .list_title {
-    /* border:1px solid salmon; */
-    padding-top:80px;
-    position: absolute;
-    color:black;
-    text-align: center;
-    width:100%;
-    }
-.main_list > ul > li > a > .list_title > h2 {
-    font-size: 30px;
-    
-    }
-.main_list > ul > li > a > .list_title > p {
-    font-size: 18px;
-    margin-top:10px;
 }
 
 /* main 끝------------------------------------------- */
