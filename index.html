@@ -11,7 +11,7 @@
 
 
 body {background-color: #f33a47}
-a {display:block}
+
 /* header {display:block;width:256px;height:256px;} */
 .wrap {
 	
@@ -39,11 +39,34 @@ a {display:block}
 	left:50px;
 	font-size: 2em;
 	}
-.contents > p > a {color: wheat}
+.contents > p > a {
+	color: wheat;
+	display:inline-block;
+	margin-bottom:40px;
+	text-decoration: none;
+	}
+
+.contents > p > a > i {
+	display: inline-block;
+	float: right;
+	width:80px;
+	height:80px;
+	margin-top:-80px;
+	background-image: url('shovel.png');
+	background-size: 80px 80px;
+	transition-duration: 0.3s;
+}
+.contents > p > a:hover > i {
+	background-image: url('shovel_line.png');
+	transition-duration: 0.3s;
+}
+
 .contents > p > a > span {
 	font-size: 2.5em;
 	display: block
 	}
+
+
 
 
 </style>
@@ -56,9 +79,9 @@ a {display:block}
 	<div class="contents">
 		<span>INAE's Portfolio</span>
 		<p>
-			<a href="https://oiloh.github.io/project0521/"><span>한솥도시락</span> https://oiloh.github.io/project0521</a><br>
-			<a href="https://oiloh.github.io/gotmilk_0528/"><span>Got Milk</span>https://oiloh.github.io/gotmilk_0528</a><br>
-			<a href="https://oiloh.github.io/0628_Motiva/"><span>모티바 코리아</span>https://oiloh.github.io/0628_Motiva/</a>
+			<a href="https://oiloh.github.io/project0521/"><span>한솥도시락</span> https://oiloh.github.io/project0521<i></i></a><br>
+			<a href="https://oiloh.github.io/gotmilk_0528/"><span>Got Milk</span>https://oiloh.github.io/gotmilk_0528<i></i></a><br>
+			<a href="https://oiloh.github.io/0628_Motiva/"><span>모티바 코리아</span>https://oiloh.github.io/0628_Motiva/<i></i></a>
 		</p>
 	</div>
 </div>

@@ -230,25 +230,19 @@ main > ul > li {
     /* border:1px solid salmon; */
     width:195px;
     /* height:286px; */
-    /* float:left; */
-    margin-bottom:17px;  
-    
+    float:left;
+    margin-bottom:17px;    
     
 }
 
 main > ul > li:nth-child(odd) {
     /* margin-right:40px; */
-    /* margin-right:30px; */
-    /* margin-left: auto; */
-    
-    float:left; 
+    margin-right:30px;
+    margin-left: auto;
     }
 main > ul > li:nth-child(even) {
-    /* margin-right: auto; */
-    float: right;
-    
+    margin-right: auto;
 }
-
 
 main > ul > li > a > div {
     border:1px solid salmon;
